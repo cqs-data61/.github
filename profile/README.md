@@ -20,6 +20,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [SoK: Can Trajectory Generation Combine Privacy and Utility?](https://github.com/cqs-data61/SoK-TrajGen)
   - [Synthetic Trajectory Generation through Convolutional Neural Networks](https://github.com/cqs-data61/CNN-TRAJGAN)
   - [Demystifying Trajectory Recovery From Ash: An Open-Source Evaluation and Enhancement](https://github.com/cqs-data61/Trajectory_Recovery)
+  - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://github.com/cqs-data61/GRAB)
 - AI Security
   - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage)
   - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor)
@@ -30,6 +31,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - AI for Software Security
   - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler)
   - [EaTVul:ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources)
+  - [An Investigation into Misuse of Java Security APIs by Large Language Models](https://github.com/cqs-data61/LLM-security-study)
 - Post-Quantum Cryptography
   - [A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum](https://github.com/cqs-data61/iVRF)
   - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte)
