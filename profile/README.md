@@ -17,6 +17,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - AI Privacy
   - [Can We Use Split Learning on 1D CNN for Privacy Preserving Training?](https://github.com/cqs-data61/split-learning-1D)
   - [Reconstruction Attack on Differential Private Trajectory Protection Mechanisms](https://github.com/cqs-data61/RAoPT)
+  - [SoK: Can Trajectory Generation Combine Privacy and Utility?](https://github.com/cqs-data61/SoK-TrajGen)
 - AI Security
   - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage)
   - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor)
