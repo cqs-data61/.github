@@ -7,8 +7,8 @@ Digital transformation is occurring faster than ever in every sector, from healt
 The current practice is to develop patches as and when the vulnerabilities are determined; we refer to it as “security by patching”. As new solutions are built and released, security is often considered later, allowing attackers to identify vulnerabilities and prepare and launch their attacks successfully. To address this challenge, the new paradigm, called “security by design”, is being promoted in academia and industry. However, with the advancement of technologies, the system designed today using the security by design principle may not be secure against future threats. To address this challenge, we coined the term “security by continuous improvement design“, with resiliency and agility main features. Our security solutions are driven by the principle of security by continuous improvement design.  
 
 ### Leadership
-- [Dr Surya Nepal](https://people.csiro.au/N/S/Surya-Nepal), Senior Principal Research Scientist, CQS Group Leader
-- [Dr Dongxi Liu](https://people.csiro.au/L/D/Dongxi-Liu), Principal Research Scientist, CQS Sciences Lead
+- [Dr Surya Nepal](https://people.csiro.au/N/S/Surya-Nepal), CQS Group Leader, Senior Principal Research Scientist
+- [Dr Dongxi Liu](https://people.csiro.au/L/D/Dongxi-Liu), CQS Sciences Lead, Principal Research Scientist
 
 ### The group has four research teams as follows:  
 - [Cyber Security Automation and Orchestration (CySA)](https://research.csiro.au/cybersecurity-quantum-systems/about/autonomous-and-application-security/), led by [Dr Seyit Camtepe](https://people.csiro.au/C/S/seyit-camtepe)
