@@ -39,4 +39,6 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - Post-Quantum Cryptography
   - [A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum](https://github.com/cqs-data61/iVRF)
   - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte)
-  
+
+---
+Managed by [Seung Jang](https://people.csiro.au/J/S/seung-jang), [Bo Yan](https://people.csiro.au/y/b/bo-yan), and [Dr Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba).
