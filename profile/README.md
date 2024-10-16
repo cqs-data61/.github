@@ -29,4 +29,8 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi)
 - AI for Software Security
   - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler)
+  - [EaTVul:ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources)
+- Post-Quantum Cryptography
+  - [A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum](https://github.com/cqs-data61/iVRF)
+  - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte)
   
