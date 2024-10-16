@@ -41,4 +41,4 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte)
 
 ---
-Managed by [Seung Jang](https://people.csiro.au/J/S/seung-jang), [Bo Yan](https://people.csiro.au/y/b/bo-yan), and [Dr Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba).
+Managed by [Seung Jang](https://people.csiro.au/J/S/seung-jang), [Bo Yan](https://people.csiro.au/y/b/bo-yan), and [Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba).
