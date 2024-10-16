@@ -24,5 +24,9 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage)
   - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor)
   - [DeepTaster: Adversarial Perturbation-Based Fingerprinting to Identify Proprietary Dataset Use in Deep Neural Networks](https://github.com/cqs-data61/DeepTaster)
+  - [Multiple Hypothesis Dropout: Estimating the Parameters of Multi-Modal Output Distributions](https://github.com/cqs-data61/multiple-hypothesis-dropout)
 - Federated Learning vs Split Learning
-  - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi) 
+  - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi)
+- AI for Software Security
+  - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler)
+  
