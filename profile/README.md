@@ -31,7 +31,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [DeepTaster: Adversarial Perturbation-Based Fingerprinting to Identify Proprietary Dataset Use in Deep Neural Networks](https://github.com/cqs-data61/DeepTaster)
   - [Multiple Hypothesis Dropout: Estimating the Parameters of Multi-Modal Output Distributions](https://github.com/cqs-data61/multiple-hypothesis-dropout)
 - Federated Learning vs Split Learning
-  - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi)
+  
 - AI for Software Security
   - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler)
   - [EaTVul:ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources)
@@ -39,6 +39,10 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - Post-Quantum Cryptography
   - [A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum](https://github.com/cqs-data61/iVRF)
   - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte)
+- Embedded Systems Security/IoT
+  - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi)
+  - [MultiFuzz: A Multi-stream Fuzzer For Testing Monolithic Firmware](https://github.com/cqs-data61/MultiFuzz)
+  - [Icicle: A Re-designed Emulator for Grey-Box Firmware Fuzzing](https://github.com/cqs-data61/icicle)
 
 ---
 Managed by [Seung Jang](https://people.csiro.au/J/S/seung-jang), [Bo Yan](https://people.csiro.au/y/b/bo-yan), and [Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba).
