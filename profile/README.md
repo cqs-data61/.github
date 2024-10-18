@@ -29,6 +29,8 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [Local Differential Privacy for Federated Learning](https://github.com/cqs-data61/LDPFL)
   - [A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services](https://github.com/cqs-data61/Over-unlearning)
   - [SplitFed: When federated learning meets split learning](https://github.com/cqs-data61/SplitFed-When-Federated-Learning-Meets-Split-Learning)
+  - [Provably Unlearnable Examples](https://github.com/cqs-data61/certified-data-learnability)
+  - [One-shot Collaborative Data Distillation](https://github.com/cqs-data61/CollabDM)
 - AI Security
   - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage)
   - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor)
@@ -43,6 +45,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [GraphGuard: Detecting and Counteracting Training Data Misuse in Graph Neural Networks](https://github.com/cqs-data61/GraphGuard-Proactive)
   - [SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection](https://github.com/cqs-data61/ShapFuzz)
   - [AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated Learning](https://github.com/cqs-data61/AgrEvader)
+  - [Daedalus: Breaking Non-Maximum Suppression in Object Detection via Adversarial Examples](https://github.com/cqs-data61/Daedalus-attack)
 - AI for Cybersecurity
   - [Modelling direct messaging networks with multiple recipients for cyber deception](https://github.com/cqs-data61/emailgen)
 - AI for Software Security
