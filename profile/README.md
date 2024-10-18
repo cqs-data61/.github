@@ -27,6 +27,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://github.com/cqs-data61/GRAB)
   - [LoDen: Making Every Client in Federated Learning a Defender Against the Poisoning Membership Inference Attacks](https://github.com/cqs-data61/LoDen)
   - [Local Differential Privacy for Federated Learning](https://github.com/cqs-data61/LDPFL)
+  - [A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services](https://github.com/cqs-data61/Over-unlearning)
 - AI Security
   - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage)
   - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor)
@@ -38,6 +39,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [Flatness-aware Sequential Learning Generates Resilient Backdoors](https://github.com/cqs-data61/SBL-resilient-backdoors)
   - [Learn What You Want to Unlearn: Unlearning Inversion Attacks against Machine Unlearning](https://github.com/cqs-data61/Unlearning-inversion-attacks)
   - [LACMUS: Latent Concept Masking for General Robustness Enhancement of DNNs](https://github.com/cqs-data61/LACMUS)
+  - [GraphGuard: Detecting and Counteracting Training Data Misuse in Graph Neural Networks](https://github.com/cqs-data61/GraphGuard-Proactive)
 - AI for Software Security
   - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler)
   - [EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources)
