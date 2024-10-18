@@ -65,6 +65,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi)
   - [MultiFuzz: A Multi-stream Fuzzer For Testing Monolithic Firmware](https://github.com/cqs-data61/MultiFuzz)
   - [Icicle: A Re-designed Emulator for Grey-Box Firmware Fuzzing](https://github.com/cqs-data61/icicle)
+  - [Secure and Modular IoT](https://github.com/cqs-data61/smit)
 - Human-centric Security
   - [Investigating users’ understanding of privacy policies of virtual personal assistant applications](https://github.com/cqs-data61/VPAPPUsability)
 - Datasets
