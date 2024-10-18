@@ -41,6 +41,9 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [LACMUS: Latent Concept Masking for General Robustness Enhancement of DNNs](https://github.com/cqs-data61/LACMUS)
   - [GraphGuard: Detecting and Counteracting Training Data Misuse in Graph Neural Networks](https://github.com/cqs-data61/GraphGuard-Proactive)
   - [SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection](https://github.com/cqs-data61/ShapFuzz)
+  - [AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated Learning](https://github.com/cqs-data61/AgrEvader)
+- AI for Cybersecurity
+  - [Modelling direct messaging networks with multiple recipients for cyber deception](https://github.com/cqs-data61/emailgen)
 - AI for Software Security
   - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler)
   - [EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources)
