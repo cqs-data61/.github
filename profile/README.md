@@ -40,10 +40,12 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [Learn What You Want to Unlearn: Unlearning Inversion Attacks against Machine Unlearning](https://github.com/cqs-data61/Unlearning-inversion-attacks)
   - [LACMUS: Latent Concept Masking for General Robustness Enhancement of DNNs](https://github.com/cqs-data61/LACMUS)
   - [GraphGuard: Detecting and Counteracting Training Data Misuse in Graph Neural Networks](https://github.com/cqs-data61/GraphGuard-Proactive)
+  - [SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection](https://github.com/cqs-data61/ShapFuzz)
 - AI for Software Security
   - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler)
   - [EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources)
   - [An Investigation into Misuse of Java Security APIs by Large Language Models](https://github.com/cqs-data61/LLM-security-study)
+  - [Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors](https://github.com/cqs-data61/AMM)
 - Cryptography
   - [LLRing: Logarithmic Linkable Ring Signatures with Transparent Setup](https://github.com/cqs-data61/LLRing)
 - Post-Quantum Cryptography
