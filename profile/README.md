@@ -31,6 +31,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [SplitFed: When federated learning meets split learning](https://github.com/cqs-data61/SplitFed-When-Federated-Learning-Meets-Split-Learning)
   - [Provably Unlearnable Examples](https://github.com/cqs-data61/certified-data-learnability)
   - [One-shot Collaborative Data Distillation](https://github.com/cqs-data61/CollabDM)
+  - [Computing Personal Information Factors (PIF)](https://github.com/cqs-data61/piflib)
 - AI Security
   - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage)
   - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor)
