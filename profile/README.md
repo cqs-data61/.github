@@ -35,6 +35,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://github.com/cqs-data61/DeepTheft)
   - [Watch Out! Simple Horizontal Class Backdoor Can Trivially Evade Defense](https://github.com/cqs-data61/HCB)
   - [Strip: A defence against trojan attacks on deep neural networks](https://github.com/cqs-data61/STRIP)
+  - [Flatness-aware Sequential Learning Generates Resilient Backdoors](https://github.com/cqs-data61/SBL-resilient-backdoors)
 - AI for Software Security
   - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler)
   - [EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources)
@@ -48,6 +49,8 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi)
   - [MultiFuzz: A Multi-stream Fuzzer For Testing Monolithic Firmware](https://github.com/cqs-data61/MultiFuzz)
   - [Icicle: A Re-designed Emulator for Grey-Box Firmware Fuzzing](https://github.com/cqs-data61/icicle)
+- Human-centric Security
+  - [Investigating users’ understanding of privacy policies of virtual personal assistant applications](https://github.com/cqs-data61/VPAPPUsability)
 
 ---
 Managed by [Seung Jang](https://people.csiro.au/J/S/seung-jang), [Bo Yan](https://people.csiro.au/y/b/bo-yan), and [Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba).
