@@ -54,12 +54,16 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - Post-Quantum Cryptography
   - [A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum](https://github.com/cqs-data61/iVRF)
   - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte)
+- AI with Quantum
+  - [Application of Quantum Pre-Processing Filter for Binary Image Classification with Small Samples](https://github.com/cqs-data61/qpf-bic)
 - Embedded Systems Security/IoT
   - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi)
   - [MultiFuzz: A Multi-stream Fuzzer For Testing Monolithic Firmware](https://github.com/cqs-data61/MultiFuzz)
   - [Icicle: A Re-designed Emulator for Grey-Box Firmware Fuzzing](https://github.com/cqs-data61/icicle)
 - Human-centric Security
   - [Investigating users’ understanding of privacy policies of virtual personal assistant applications](https://github.com/cqs-data61/VPAPPUsability)
+- Datasets
+  - [SchemaDB: A Dataset for Structures in Relational Data](https://github.com/cqs-data61/SchemaDB)
 
 ---
 Managed by [Seung Jang](https://people.csiro.au/J/S/seung-jang), [Bo Yan](https://people.csiro.au/y/b/bo-yan), and [Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba).
