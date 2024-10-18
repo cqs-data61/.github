@@ -28,6 +28,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [LoDen: Making Every Client in Federated Learning a Defender Against the Poisoning Membership Inference Attacks](https://github.com/cqs-data61/LoDen)
   - [Local Differential Privacy for Federated Learning](https://github.com/cqs-data61/LDPFL)
   - [A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services](https://github.com/cqs-data61/Over-unlearning)
+  - [SplitFed: When federated learning meets split learning](https://github.com/cqs-data61/SplitFed-When-Federated-Learning-Meets-Split-Learning)
 - AI Security
   - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage)
   - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor)
@@ -56,6 +57,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte)
 - AI with Quantum
   - [Application of Quantum Pre-Processing Filter for Binary Image Classification with Small Samples](https://github.com/cqs-data61/qpf-bic)
+  - [Development of a Novel Quantum Pre-processing Filter to Improve Image Classification Accuracy of Neural Network Models](https://github.com/cqs-data61/qpf)
 - Embedded Systems Security/IoT
   - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi)
   - [MultiFuzz: A Multi-stream Fuzzer For Testing Monolithic Firmware](https://github.com/cqs-data61/MultiFuzz)
