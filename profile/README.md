@@ -19,7 +19,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
 
 ## Research Areas
 - AI Privacy
-  - [Can We Use Split Learning on 1D CNN for Privacy Preserving Training?](https://github.com/cqs-data61/split-learning-1D), ACM ASIACCS 2020
+  - [Can We Use Split Learning on 1D CNN for Privacy Preserving Training?](https://github.com/cqs-data61/split-learning-1D), AsiaCCS 2020
   - [Reconstruction Attack on Differential Private Trajectory Protection Mechanisms](https://github.com/cqs-data61/RAoPT), ACSAC 2022
   - [SoK: Can Trajectory Generation Combine Privacy and Utility?](https://github.com/cqs-data61/SoK-TrajGen), PoPETs 2024
   - [Synthetic Trajectory Generation through Convolutional Neural Networks](https://github.com/cqs-data61/CNN-TRAJGAN), PST 2024
@@ -33,20 +33,21 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [One-shot Collaborative Data Distillation](https://github.com/cqs-data61/CollabDM), ECAI 2024
   - [Computing Personal Information Factors (PIF)](https://github.com/cqs-data61/piflib), 2021
 - AI Security
-  - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage)
-  - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor)
-  - [DeepTaster: Adversarial Perturbation-Based Fingerprinting to Identify Proprietary Dataset Use in Deep Neural Networks](https://github.com/cqs-data61/DeepTaster)
-  - [Multiple Hypothesis Dropout: Estimating the Parameters of Multi-Modal Output Distributions](https://github.com/cqs-data61/multiple-hypothesis-dropout)
-  - [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://github.com/cqs-data61/DeepTheft)
-  - [Watch Out! Simple Horizontal Class Backdoor Can Trivially Evade Defense](https://github.com/cqs-data61/HCB)
-  - [Strip: A defence against trojan attacks on deep neural networks](https://github.com/cqs-data61/STRIP)
-  - [Flatness-aware Sequential Learning Generates Resilient Backdoors](https://github.com/cqs-data61/SBL-resilient-backdoors)
-  - [Learn What You Want to Unlearn: Unlearning Inversion Attacks against Machine Unlearning](https://github.com/cqs-data61/Unlearning-inversion-attacks)
-  - [LACMUS: Latent Concept Masking for General Robustness Enhancement of DNNs](https://github.com/cqs-data61/LACMUS)
-  - [GraphGuard: Detecting and Counteracting Training Data Misuse in Graph Neural Networks](https://github.com/cqs-data61/GraphGuard-Proactive)
-  - [SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection](https://github.com/cqs-data61/ShapFuzz)
-  - [AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated Learning](https://github.com/cqs-data61/AgrEvader)
-  - [Daedalus: Breaking Non-Maximum Suppression in Object Detection via Adversarial Examples](https://github.com/cqs-data61/Daedalus-attack)
+  - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage), DSN 2021
+  - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor), 
+IEEE DSC 2023
+  - [DeepTaster: Adversarial Perturbation-Based Fingerprinting to Identify Proprietary Dataset Use in Deep Neural Networks](https://github.com/cqs-data61/DeepTaster), ACM 2023
+  - [Multiple Hypothesis Dropout: Estimating the Parameters of Multi-Modal Output Distributions](https://github.com/cqs-data61/multiple-hypothesis-dropout), AAAI 2024
+  - [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://github.com/cqs-data61/DeepTheft), IEEE SP 2024
+  - [Watch Out! Simple Horizontal Class Backdoor Can Trivially Evade Defense](https://github.com/cqs-data61/HCB), ACM 2024
+  - [Strip: A defence against trojan attacks on deep neural networks](https://github.com/cqs-data61/STRIP), ACSAC 2019
+  - [Flatness-aware Sequential Learning Generates Resilient Backdoors](https://github.com/cqs-data61/SBL-resilient-backdoors), ECCV 2024
+  - [Learn What You Want to Unlearn: Unlearning Inversion Attacks against Machine Unlearning](https://github.com/cqs-data61/Unlearning-inversion-attacks), IEEE SP 2024
+  - [LACMUS: Latent Concept Masking for General Robustness Enhancement of DNNs](https://github.com/cqs-data61/LACMUS), IEEE SP 2024
+  - [GraphGuard: Detecting and Counteracting Training Data Misuse in Graph Neural Networks](https://github.com/cqs-data61/GraphGuard-Proactive), NDSS 2024
+  - [SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection](https://github.com/cqs-data61/ShapFuzz), NDSS 2024
+  - [AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated Learning](https://github.com/cqs-data61/AgrEvader), ACM 2023
+  - [Daedalus: Breaking Non-Maximum Suppression in Object Detection via Adversarial Examples](https://github.com/cqs-data61/Daedalus-attack), IEEE CYBERNETICS 2022
 - AI for Cybersecurity
   - [Modelling direct messaging networks with multiple recipients for cyber deception](https://github.com/cqs-data61/emailgen)
 - AI for Software Security
