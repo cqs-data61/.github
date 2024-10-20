@@ -11,10 +11,10 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - [Dr Dongxi Liu](https://people.csiro.au/L/D/Dongxi-Liu), CQS Sciences Lead, Principal Research Scientist
 
 ### The group has four research teams as follows:  
-- [Cyber Security Automation and Orchestration (CySA)](https://research.csiro.au/cybersecurity-quantum-systems/about/autonomous-and-application-security/), led by [Dr Seyit Camtepe](https://people.csiro.au/C/S/seyit-camtepe)
-- [Distributed Systems Security (DSS)](https://research.csiro.au/cybersecurity-quantum-systems/about/iot-cloud-security/), led by [Dr Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba)
-- [Human-Centric Security (HCS)](https://research.csiro.au/cybersecurity-quantum-systems/about/human-centric-security/), led by [Dr Marthie Grobler](https://people.csiro.au/g/m/marthie-grobler)
-- [Quantum Systems (QS)](https://research.csiro.au/cybersecurity-quantum-systems/about/quantum-systems/), led by [Dr Usman Muhammad](https://research.csiro.au/cybersecurity-quantum-systems/people/staff/)
+- [Cyber Security Automation and Orchestration (CySA)](https://research.csiro.au/cybersecurity-quantum-systems/about/autonomous-and-application-security/), led by [Dr Seyit Camtepe](https://people.csiro.au/C/S/seyit-camtepe) (Supervisors: [Dr Ejaz Ahmed](https://people.csiro.au/a/e/ejaz-ahmed), [Dr Jason Xue](https://people.csiro.au/x/j/jason-xue))
+- [Distributed Systems Security (DSS)](https://research.csiro.au/cybersecurity-quantum-systems/about/iot-cloud-security/), led by [Dr Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba) (Supervisors: [Seung Jang](https://people.csiro.au/j/s/seung-jang), [Dr Sid Chau](https://people.csiro.au/c/s/sid-chau))
+- [Human-Centric Security (HCS)](https://research.csiro.au/cybersecurity-quantum-systems/about/human-centric-security/), led by [Dr Marthie Grobler](https://people.csiro.au/g/m/marthie-grobler) (Supervisors: [Dr Kristen Moore](https://people.csiro.au/m/k/kristen-moore), [Dr Mohan Baruwal Chhetri](https://people.csiro.au/b/m/mohan-baruwalchhetri))
+- [Quantum Systems (QS)](https://research.csiro.au/cybersecurity-quantum-systems/about/quantum-systems/), led by [Dr Usman Muhammad](https://research.csiro.au/cybersecurity-quantum-systems/people/staff/) (Supervisor: [Dr Hajime Suzuki](https://people.csiro.au/s/h/hajime-suzuki))
 
 
 ## Research Areas
