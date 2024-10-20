@@ -49,29 +49,29 @@ IEEE DSC 2023
   - [AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated Learning](https://github.com/cqs-data61/AgrEvader), ACM 2023
   - [Daedalus: Breaking Non-Maximum Suppression in Object Detection via Adversarial Examples](https://github.com/cqs-data61/Daedalus-attack), IEEE CYBERNETICS 2022
 - AI for Cybersecurity
-  - [Modelling direct messaging networks with multiple recipients for cyber deception](https://github.com/cqs-data61/emailgen)
+  - [Modelling direct messaging networks with multiple recipients for cyber deception](https://github.com/cqs-data61/emailgen), Euro S&P 2022
 - AI for Software Security
-  - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler)
-  - [EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources)
-  - [An Investigation into Misuse of Java Security APIs by Large Language Models](https://github.com/cqs-data61/LLM-security-study)
-  - [Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors](https://github.com/cqs-data61/AMM)
+  - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler), ESORICS 2021
+  - [EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources), USENIX 2024
+  - [An Investigation into Misuse of Java Security APIs by Large Language Models](https://github.com/cqs-data61/LLM-security-study), AsiaCCS 2024
+  - [Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors](https://github.com/cqs-data61/AMM), ESEC/FSE 2023
 - Cryptography
-  - [LLRing: Logarithmic Linkable Ring Signatures with Transparent Setup](https://github.com/cqs-data61/LLRing)
+  - [LLRing: Logarithmic Linkable Ring Signatures with Transparent Setup](https://github.com/cqs-data61/LLRing), ESORICS 2024
 - Post-Quantum Cryptography
-  - [A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum](https://github.com/cqs-data61/iVRF)
-  - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte)
+  - [A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum](https://github.com/cqs-data61/iVRF), AsiaCCS 2023
+  - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte), IEEE IFS 2024
 - AI with Quantum
-  - [Application of Quantum Pre-Processing Filter for Binary Image Classification with Small Samples](https://github.com/cqs-data61/qpf-bic)
-  - [Development of a Novel Quantum Pre-processing Filter to Improve Image Classification Accuracy of Neural Network Models](https://github.com/cqs-data61/qpf)
+  - [Application of Quantum Pre-Processing Filter for Binary Image Classification with Small Samples](https://github.com/cqs-data61/qpf-bic), 2023
+  - [Development of a Novel Quantum Pre-processing Filter to Improve Image Classification Accuracy of Neural Network Models](https://github.com/cqs-data61/qpf), 2023
 - Embedded Systems Security/IoT
-  - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi)
-  - [MultiFuzz: A Multi-stream Fuzzer For Testing Monolithic Firmware](https://github.com/cqs-data61/MultiFuzz)
-  - [Icicle: A Re-designed Emulator for Grey-Box Firmware Fuzzing](https://github.com/cqs-data61/icicle)
-  - [Secure and Modular IoT](https://github.com/cqs-data61/smit)
+  - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi), SRDS 2020
+  - [MultiFuzz: A Multi-stream Fuzzer For Testing Monolithic Firmware](https://github.com/cqs-data61/MultiFuzz), USENIX 2024
+  - [Icicle: A Re-designed Emulator for Grey-Box Firmware Fuzzing](https://github.com/cqs-data61/icicle), ISSTA 2023
+  - [Secure and Modular IoT](https://github.com/cqs-data61/smit), 2018
 - Human-centric Security
-  - [Investigating users’ understanding of privacy policies of virtual personal assistant applications](https://github.com/cqs-data61/VPAPPUsability)
+  - [Investigating users’ understanding of privacy policies of virtual personal assistant applications](https://github.com/cqs-data61/VPAPPUsability), AsiaCCS 2023
 - Datasets
-  - [SchemaDB: A Dataset for Structures in Relational Data](https://github.com/cqs-data61/SchemaDB)
+  - [SchemaDB: A Dataset for Structures in Relational Data](https://github.com/cqs-data61/SchemaDB), 2023
 
 ---
 Managed by [Seung Jang](https://people.csiro.au/J/S/seung-jang), [Bo Yan](https://people.csiro.au/y/b/bo-yan), and [Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba).
