@@ -19,19 +19,19 @@ The current practice is to develop patches as and when the vulnerabilities are d
 
 ## Research Areas
 - AI Privacy
-  - [Can We Use Split Learning on 1D CNN for Privacy Preserving Training?](https://github.com/cqs-data61/split-learning-1D)
-  - [Reconstruction Attack on Differential Private Trajectory Protection Mechanisms](https://github.com/cqs-data61/RAoPT)
-  - [SoK: Can Trajectory Generation Combine Privacy and Utility?](https://github.com/cqs-data61/SoK-TrajGen)
-  - [Synthetic Trajectory Generation through Convolutional Neural Networks](https://github.com/cqs-data61/CNN-TRAJGAN)
-  - [Demystifying Trajectory Recovery From Ash: An Open-Source Evaluation and Enhancement](https://github.com/cqs-data61/Trajectory_Recovery)
-  - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://github.com/cqs-data61/GRAB)
-  - [LoDen: Making Every Client in Federated Learning a Defender Against the Poisoning Membership Inference Attacks](https://github.com/cqs-data61/LoDen)
-  - [Local Differential Privacy for Federated Learning](https://github.com/cqs-data61/LDPFL)
-  - [A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services](https://github.com/cqs-data61/Over-unlearning)
-  - [SplitFed: When federated learning meets split learning](https://github.com/cqs-data61/SplitFed-When-Federated-Learning-Meets-Split-Learning)
-  - [Provably Unlearnable Examples](https://github.com/cqs-data61/certified-data-learnability)
-  - [One-shot Collaborative Data Distillation](https://github.com/cqs-data61/CollabDM)
-  - [Computing Personal Information Factors (PIF)](https://github.com/cqs-data61/piflib)
+  - [Can We Use Split Learning on 1D CNN for Privacy Preserving Training?](https://github.com/cqs-data61/split-learning-1D), ACM ASIACCS 2020
+  - [Reconstruction Attack on Differential Private Trajectory Protection Mechanisms](https://github.com/cqs-data61/RAoPT), ACSAC 2022
+  - [SoK: Can Trajectory Generation Combine Privacy and Utility?](https://github.com/cqs-data61/SoK-TrajGen), PoPETs 2024
+  - [Synthetic Trajectory Generation through Convolutional Neural Networks](https://github.com/cqs-data61/CNN-TRAJGAN), PST 2024
+  - [Demystifying Trajectory Recovery From Ash: An Open-Source Evaluation and Enhancement](https://github.com/cqs-data61/Trajectory_Recovery), SIN 2024
+  - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://github.com/cqs-data61/GRAB), CCS 2024 
+  - [LoDen: Making Every Client in Federated Learning a Defender Against the Poisoning Membership Inference Attacks](https://github.com/cqs-data61/LoDen), AsiaCCS 2023
+  - [Local Differential Privacy for Federated Learning](https://github.com/cqs-data61/LDPFL), ESORICS 2022
+  - [A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services](https://github.com/cqs-data61/Over-unlearning), NDSS 2024
+  - [SplitFed: When federated learning meets split learning](https://github.com/cqs-data61/SplitFed-When-Federated-Learning-Meets-Split-Learning), AAAI 2022
+  - [Provably Unlearnable Examples](https://github.com/cqs-data61/certified-data-learnability), 2024
+  - [One-shot Collaborative Data Distillation](https://github.com/cqs-data61/CollabDM), ECAI 2024
+  - [Computing Personal Information Factors (PIF)](https://github.com/cqs-data61/piflib), 2021
 - AI Security
   - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage)
   - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor)
