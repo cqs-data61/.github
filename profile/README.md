@@ -17,7 +17,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - [Quantum Systems (QS)](https://research.csiro.au/cybersecurity-quantum-systems/about/quantum-systems/), led by [Dr Usman Muhammad](https://research.csiro.au/cybersecurity-quantum-systems/people/staff/) ([Dr Hajime Suzuki](https://people.csiro.au/s/h/hajime-suzuki))
 
 
-## Research Areas
+## Online Library of our Selected Works with Code Implementations
 - AI Security
   - [Multiple Hypothesis Dropout: Estimating the Parameters of Multi-Modal Output Distributions](https://github.com/cqs-data61/multiple-hypothesis-dropout), AAAI 2024
   - [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://github.com/cqs-data61/DeepTheft), IEEE SP 2024
