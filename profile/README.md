@@ -18,55 +18,54 @@ The current practice is to develop patches as and when the vulnerabilities are d
 
 
 ## Research Areas
-- AI Privacy
-  - [Can We Use Split Learning on 1D CNN for Privacy Preserving Training?](https://github.com/cqs-data61/split-learning-1D), AsiaCCS 2020
-  - [Reconstruction Attack on Differential Private Trajectory Protection Mechanisms](https://github.com/cqs-data61/RAoPT), ACSAC 2022
-  - [SoK: Can Trajectory Generation Combine Privacy and Utility?](https://github.com/cqs-data61/SoK-TrajGen), PoPETs 2024
-  - [Synthetic Trajectory Generation through Convolutional Neural Networks](https://github.com/cqs-data61/CNN-TRAJGAN), PST 2024
-  - [Demystifying Trajectory Recovery From Ash: An Open-Source Evaluation and Enhancement](https://github.com/cqs-data61/Trajectory_Recovery), SIN 2024
-  - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://github.com/cqs-data61/GRAB), CCS 2024 
-  - [LoDen: Making Every Client in Federated Learning a Defender Against the Poisoning Membership Inference Attacks](https://github.com/cqs-data61/LoDen), AsiaCCS 2023
-  - [Local Differential Privacy for Federated Learning](https://github.com/cqs-data61/LDPFL), ESORICS 2022
-  - [A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services](https://github.com/cqs-data61/Over-unlearning), NDSS 2024
-  - [SplitFed: When federated learning meets split learning](https://github.com/cqs-data61/SplitFed-When-Federated-Learning-Meets-Split-Learning), AAAI 2022
-  - [Provably Unlearnable Examples](https://github.com/cqs-data61/certified-data-learnability), 2024
-  - [One-shot Collaborative Data Distillation](https://github.com/cqs-data61/CollabDM), ECAI 2024
-  - [Computing Personal Information Factors (PIF)](https://github.com/cqs-data61/piflib), 2021
 - AI Security
-  - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage), DSN 2021
-  - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor), 
-IEEE DSC 2023
-  - [DeepTaster: Adversarial Perturbation-Based Fingerprinting to Identify Proprietary Dataset Use in Deep Neural Networks](https://github.com/cqs-data61/DeepTaster), ACM 2023
   - [Multiple Hypothesis Dropout: Estimating the Parameters of Multi-Modal Output Distributions](https://github.com/cqs-data61/multiple-hypothesis-dropout), AAAI 2024
   - [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://github.com/cqs-data61/DeepTheft), IEEE SP 2024
   - [Watch Out! Simple Horizontal Class Backdoor Can Trivially Evade Defense](https://github.com/cqs-data61/HCB), ACM 2024
-  - [Strip: A defence against trojan attacks on deep neural networks](https://github.com/cqs-data61/STRIP), ACSAC 2019
   - [Flatness-aware Sequential Learning Generates Resilient Backdoors](https://github.com/cqs-data61/SBL-resilient-backdoors), ECCV 2024
   - [Learn What You Want to Unlearn: Unlearning Inversion Attacks against Machine Unlearning](https://github.com/cqs-data61/Unlearning-inversion-attacks), IEEE SP 2024
   - [LACMUS: Latent Concept Masking for General Robustness Enhancement of DNNs](https://github.com/cqs-data61/LACMUS), IEEE SP 2024
   - [GraphGuard: Detecting and Counteracting Training Data Misuse in Graph Neural Networks](https://github.com/cqs-data61/GraphGuard-Proactive), NDSS 2024
   - [SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection](https://github.com/cqs-data61/ShapFuzz), NDSS 2024
+  - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor), IEEE DSC 2023
+  - [DeepTaster: Adversarial Perturbation-Based Fingerprinting to Identify Proprietary Dataset Use in Deep Neural Networks](https://github.com/cqs-data61/DeepTaster), ACM 2023
   - [AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated Learning](https://github.com/cqs-data61/AgrEvader), ACM 2023
   - [Daedalus: Breaking Non-Maximum Suppression in Object Detection via Adversarial Examples](https://github.com/cqs-data61/Daedalus-attack), IEEE CYBERNETICS 2022
+  - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage), DSN 2021
+  - [Strip: A defence against trojan attacks on deep neural networks](https://github.com/cqs-data61/STRIP), ACSAC 2019
+- AI Privacy
+  - [SoK: Can Trajectory Generation Combine Privacy and Utility?](https://github.com/cqs-data61/SoK-TrajGen), PoPETs 2024
+  - [Synthetic Trajectory Generation through Convolutional Neural Networks](https://github.com/cqs-data61/CNN-TRAJGAN), PST 2024
+  - [Demystifying Trajectory Recovery From Ash: An Open-Source Evaluation and Enhancement](https://github.com/cqs-data61/Trajectory_Recovery), SIN 2024
+  - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://github.com/cqs-data61/GRAB), CCS 2024
+  - [A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services](https://github.com/cqs-data61/Over-unlearning), NDSS 2024
+  - [Provably Unlearnable Examples](https://github.com/cqs-data61/certified-data-learnability), 2024
+  - [One-shot Collaborative Data Distillation](https://github.com/cqs-data61/CollabDM), ECAI 2024
+  - [LoDen: Making Every Client in Federated Learning a Defender Against the Poisoning Membership Inference Attacks](https://github.com/cqs-data61/LoDen), AsiaCCS 2023
+  - [Reconstruction Attack on Differential Private Trajectory Protection Mechanisms](https://github.com/cqs-data61/RAoPT), ACSAC 2022
+  - [Local Differential Privacy for Federated Learning](https://github.com/cqs-data61/LDPFL), ESORICS 2022
+  - [SplitFed: When federated learning meets split learning](https://github.com/cqs-data61/SplitFed-When-Federated-Learning-Meets-Split-Learning), AAAI 2022
+  - [Computing Personal Information Factors (PIF)](https://github.com/cqs-data61/piflib), 2021
+  - [Can We Use Split Learning on 1D CNN for Privacy Preserving Training?](https://github.com/cqs-data61/split-learning-1D), AsiaCCS 2020
 - AI for Cybersecurity
   - [Modelling direct messaging networks with multiple recipients for cyber deception](https://github.com/cqs-data61/emailgen), Euro S&P 2022
 - AI for Software Security
-  - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler), ESORICS 2021
   - [EaTVul: ChatGPT-based Evasion Attack Against Software Vulnerability Detection](https://github.com/cqs-data61/EatVul-Resources), USENIX 2024
   - [An Investigation into Misuse of Java Security APIs by Large Language Models](https://github.com/cqs-data61/LLM-security-study), AsiaCCS 2024
   - [Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors](https://github.com/cqs-data61/AMM), ESEC/FSE 2023
+  - [Peeler: Profiling kernel-level events to detect ransomware](https://github.com/cqs-data61/peeler), ESORICS 2021
 - Cryptography
   - [LLRing: Logarithmic Linkable Ring Signatures with Transparent Setup](https://github.com/cqs-data61/LLRing), ESORICS 2024
 - Post-Quantum Cryptography
-  - [A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum](https://github.com/cqs-data61/iVRF), AsiaCCS 2023
   - [Quantum-safe HIBE: does it cost a Latte?](https://github.com/cqs-data61/latte), IEEE IFS 2024
+  - [A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum](https://github.com/cqs-data61/iVRF), AsiaCCS 2023
 - AI with Quantum
   - [Application of Quantum Pre-Processing Filter for Binary Image Classification with Small Samples](https://github.com/cqs-data61/qpf-bic), 2023
   - [Development of a Novel Quantum Pre-processing Filter to Improve Image Classification Accuracy of Neural Network Models](https://github.com/cqs-data61/qpf), 2023
 - Embedded Systems Security/IoT
-  - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi), SRDS 2020
   - [MultiFuzz: A Multi-stream Fuzzer For Testing Monolithic Firmware](https://github.com/cqs-data61/MultiFuzz), USENIX 2024
   - [Icicle: A Re-designed Emulator for Grey-Box Firmware Fuzzing](https://github.com/cqs-data61/icicle), ISSTA 2023
+  - [End-to-End Evaluation of Federated Learning and Split Learning for Internet of Things](https://github.com/cqs-data61/Federated-Learning-and-Split-Learning-with-raspberry-pi), SRDS 2020
   - [Secure and Modular IoT](https://github.com/cqs-data61/smit), 2018
 - Human-centric Security
   - [Investigating users’ understanding of privacy policies of virtual personal assistant applications](https://github.com/cqs-data61/VPAPPUsability), AsiaCCS 2023
