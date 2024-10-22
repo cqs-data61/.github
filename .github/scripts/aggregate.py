@@ -16,14 +16,18 @@ headers = {
 def get_repositories(user):
     repos = []
     page = 1
-    while True:
-        url = f"https://api.github.com/users/{user}/repos?page={page}&per_page=100"
-        response = requests.get(url, headers=headers)
-        data = response.json()
-        if len(data) == 0:
-            break
-        repos.extend(data)
-        page += 1
+    #while True:
+
+    url = f"https://api.github.com/users/{user}/repos?page={page}&per_page=100"
+    print(url)
+
+    response = requests.get(url, headers=headers)
+    data = response.json()
+    # if len(data) == 0:
+    #     break
+    repos.extend(data)
+    page += 1
+
     return repos
 
 
@@ -67,7 +71,7 @@ def aggregate_github_stats(user):
     repo_list = get_repositories(user)
     print(f'received {len(repo_list)} repos')
 
-    for repo in repo_list:
+    for repo in repo_list[:2]:
         _repo = get_repo(repo)
         repos.append(_repo)
 
