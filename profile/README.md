@@ -2,7 +2,8 @@
 ## Executable Science Initiative 
 The repos here contain the published papers and research from [Cybersecurity and Quantum Systems Group](https://research.csiro.au/cybersecurity-quantum-systems/), Data61, CSIRO.  
 
-It is part of our Executable Science initiative to promote the release of implementation code alongside research publications (where possible), making it easier for other scientists to adopt, validate, and build upon the work. By advocating for transparency and reproducibility, it seeks to accelerate innovation and facilitate seamless integration of our research findings into ongoing scientific efforts.
+The "Executable Science" initiative aims to enhance the accessibility and impact of our research by releasing implementation code alongside research publications whenever possible. This approach promotes transparency and reproducibility, making it easier for other scientists to adopt, validate, and build upon our work. By accelerating innovation and enabling seamless integration of our findings into ongoing scientific efforts, we aim to drive significant impact in the field.![image](https://github.com/user-attachments/assets/054e22de-b1c8-4f05-8273-91cc32ff9219)
+
 
 <!-- STATS-START -->
 *GitHub Stats (Updated: 23-10-2024)*  
