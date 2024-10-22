@@ -34,7 +34,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - AI Security
   - [Multiple Hypothesis Dropout: Estimating the Parameters of Multi-Modal Output Distributions](https://github.com/cqs-data61/multiple-hypothesis-dropout), AAAI 2024
   - [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://github.com/cqs-data61/DeepTheft), IEEE SP 2024
-  - [Watch Out! Simple Horizontal Class Backdoor Can Trivially Evade Defense](https://github.com/cqs-data61/HCB), ACM 2024
+  - [Watch Out! Simple Horizontal Class Backdoor Can Trivially Evade Defense](https://github.com/cqs-data61/HCB), CCS 2024
   - [Flatness-aware Sequential Learning Generates Resilient Backdoors](https://github.com/cqs-data61/SBL-resilient-backdoors), ECCV 2024
   - [Learn What You Want to Unlearn: Unlearning Inversion Attacks against Machine Unlearning](https://github.com/cqs-data61/Unlearning-inversion-attacks), IEEE SP 2024
   - [LACMUS: Latent Concept Masking for General Robustness Enhancement of DNNs](https://github.com/cqs-data61/LACMUS), IEEE SP 2024
