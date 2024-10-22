@@ -29,15 +29,10 @@ jobs:
         pip install requests
 
     # Step 4: Set environment variables
-    - name: Set environment variables
+    - name: Set environment variables and run python
       env:
         USER_NAME: ${{ secrets.USER_NAME }}
         PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-      run: |
-        echo "USER_NAME is set to $USER_NAME"  #
-
-    # Step 5: Run the Python script to fetch GitHub stats
-    - name: Run Python Script
       run: python .github/scripts/aggregate.py
 
     # Step 6: Commit the updated stats (if necessary)
