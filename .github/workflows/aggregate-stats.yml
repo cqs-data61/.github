@@ -2,8 +2,8 @@ name: Aggregate GitHub Stats
 
 on:
   schedule:
-    # Runs at 12:00 every day
-    - cron: "0 12 * * *"
+    # Runs 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:  # Allows manual trigger
   # You can also add triggers like push or pull_request if needed
 
