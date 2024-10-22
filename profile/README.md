@@ -6,8 +6,9 @@ It is part of our Executable Science initiative to promote the release of implem
 
 <!-- STATS-START -->
 *GitHub Stats (Updated: 22-10-2024)*  
-![Forks](https://img.shields.io/badge/Forks-127-orange) ![Stars](https://img.shields.io/badge/Stars-534-yellow)  
+![Forks](https://img.shields.io/badge/Forks-127-orange) ![Stars](https://img.shields.io/badge/Stars-537-yellow)  
 <!-- STATS-END -->
+
 
 
 
