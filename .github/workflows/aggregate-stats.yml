@@ -37,10 +37,12 @@ jobs:
 
     # Step 5: Commit the updated stats (if necessary)
     - name: Commit results
+      env:
+        PAT_TOKEN: ${{ secrets.WRITE_TOKEN }}
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Action"
         git add profile/README.md
         git commit -m "Updated GitHub stats"
-        git push
+        git push https://x-access-token:${{ secrets.WRITE_TOKEN }}@github.com/${{ github.repository }} HEAD:main
       continue-on-error: true  # Avoid failure if nothing to commit
