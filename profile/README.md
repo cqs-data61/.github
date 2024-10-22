@@ -41,8 +41,8 @@ The current practice is to develop patches as and when the vulnerabilities are d
   - [GraphGuard: Detecting and Counteracting Training Data Misuse in Graph Neural Networks](https://github.com/cqs-data61/GraphGuard-Proactive), NDSS 2024
   - [SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection](https://github.com/cqs-data61/ShapFuzz), NDSS 2024
   - [Quantization Backdoors to Deep Learning Commercial Frameworks](https://github.com/cqs-data61/quantization-backdoor), IEEE TDSC 2023
-  - [DeepTaster: Adversarial Perturbation-Based Fingerprinting to Identify Proprietary Dataset Use in Deep Neural Networks](https://github.com/cqs-data61/DeepTaster), ACM 2023
-  - [AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated Learning](https://github.com/cqs-data61/AgrEvader), ACM 2023
+  - [DeepTaster: Adversarial Perturbation-Based Fingerprinting to Identify Proprietary Dataset Use in Deep Neural Networks](https://github.com/cqs-data61/DeepTaster), ACSAC 2023
+  - [AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated Learning](https://github.com/cqs-data61/AgrEvader), WWW 2023
   - [Daedalus: Breaking Non-Maximum Suppression in Object Detection via Adversarial Examples](https://github.com/cqs-data61/Daedalus-attack), IEEE CYBERNETICS 2022
   - [Decamouflage: A Framework to Detect Image-Scaling Attacks on CNN](https://github.com/cqs-data61/Decamouflage), IEEE DSN 2021
   - [Strip: A defence against trojan attacks on deep neural networks](https://github.com/cqs-data61/STRIP), ACSAC 2019
