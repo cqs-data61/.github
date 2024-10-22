@@ -7,6 +7,8 @@ on:
   workflow_dispatch:  # Allows manual trigger
   # You can also add triggers like push or pull_request if needed
 
+permissions: write-all
+
 jobs:
   aggregate:
     runs-on: ubuntu-latest
