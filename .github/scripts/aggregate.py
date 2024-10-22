@@ -14,7 +14,21 @@ headers = {
 
 # Function to get all repositories for a user
 def get_repositories(user):
-    url = f"https://api.github.com/users/{user}/repos"
+    repos = []
+    page = 1
+    while True:
+        url = f"https://api.github.com/users/{user}/repos?page={page}&per_page=100"
+        response = requests.get(url, headers=headers)
+        data = response.json()
+        if len(data) == 0:
+            break
+        repos.extend(data)
+        page += 1
+    return repos
+
+
+def get_repo(repo):
+    url = repo['url']
     response = requests.get(url, headers=headers)
     return response.json()
 
@@ -46,15 +60,18 @@ def aggregate_views(repos, owner):
 
 # Main function
 def aggregate_github_stats(user):
-    repos = get_repositories(user)
-    total_stars = aggregate_stars(repos)
-    total_views = aggregate_views(repos, user)
+    repos = []
+    repo_list = get_repositories(user)
 
-    # Create an output file to store the results
-    with open('github_stats.md', 'w') as f:
-        f.write(f"# GitHub Stats Report - {datetime.now().strftime('%Y-%m-%d')}\n")
-        f.write(f"Total Stars: {total_stars}\n")
-        f.write(f"Total Views: {total_views}\n")
+    for repo in repo_list:
+        repos.append(get_repo(repo))
+
+    for repo in repos:
+        if 'parent' in repo:
+            parent = repo['parent']
+            print(parent['stargazers_count'], parent['watchers_count'], parent['forks'], parent['forks'])
+        else:
+            print(repo['stargazers_count'], repo['watchers_count'], repo['forks'], repo['forks'])
 
 
 # Run the script
