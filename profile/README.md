@@ -1,6 +1,6 @@
 # Cybersecurity and Quantum Systems Group, Data61, CSIRO  
-<!-- STATS-START --> ![Forks](https://img.shields.io/badge/Forks-127-orange) ![Views](https://img.shields.io/badge/Views-534-blue) <!-- STATS-END -->
 The repos here contain the published papers and research from [Cybersecurity and Quantum Systems Group](https://research.csiro.au/cybersecurity-quantum-systems/), Data61, CSIRO.  
+<!-- STATS-START --> ![Forks](https://img.shields.io/badge/Forks-127-orange) ![Views](https://img.shields.io/badge/Views-534-blue) <!-- STATS-END -->
 
 ## About Us
 Digital transformation is occurring faster than ever in every sector, from health, manufacturing, and energy to agriculture. Digital manufacturing, the Internet of Energy, Smart Farming and Digital Health are examples of industries that have undergone a massive transformation, transitioning our economy to a digital economy. Hence, cyberattacks become one of the significant risks to the functioning of our society and our A$ 2.5 trillion economy. Emerging technologies like Quantum, 6G, AI/ML, AR/VR/XR, and Digital Twins will significantly speed up the transformation while providing more attack surfaces to cyber attacks. At the same time, cyberattacks are increasing in volume and sophistication and getting more complex, adaptive and non-deterministic. The group focuses on solving security challenges (a) at these emerging technologies’ intersections and (b) caused while transitioning to these new technologies and developing innovative human-centric security solutions.  
