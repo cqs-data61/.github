@@ -72,6 +72,7 @@ def aggregate_github_stats(user):
     print(f'received {len(repo_list)} repos')
 
     for repo in repo_list[:2]:
+        print(repo)
         _repo = get_repo(repo)
         repos.append(_repo)
 
