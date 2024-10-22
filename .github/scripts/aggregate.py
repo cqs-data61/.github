@@ -36,10 +36,13 @@ def get_repo(repo):
 # Main function
 def aggregate_github_stats(user):
     repos = []
+    print('getting list...')
     repo_list = get_repositories(user)
+    print(f'received {len(repo_list)} repos')
 
     for repo in repo_list[:5]:
-        repos.append(get_repo(repo))
+        _repo = get_repo(repo)
+        repos.append(_repo)
 
     stars = 0
     views = 0
