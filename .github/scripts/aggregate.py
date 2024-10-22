@@ -33,31 +33,6 @@ def get_repo(repo):
     return response.json()
 
 
-# Function to get total stars
-def aggregate_stars(repos):
-    total_stars = 0
-    for repo in repos:
-        total_stars += repo['stargazers_count']
-    return total_stars
-
-
-# Function to get views for a specific repo
-def get_repo_views(owner, repo_name):
-    url = f"https://api.github.com/repos/{owner}/{repo_name}/traffic/views"
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        return response.json()['count']
-    return 0
-
-
-# Function to aggregate views across all repos
-def aggregate_views(repos, owner):
-    total_views = 0
-    for repo in repos:
-        total_views += get_repo_views(owner, repo['name'])
-    return total_views
-
-
 # Main function
 def aggregate_github_stats(user):
     repos = []
