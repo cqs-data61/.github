@@ -28,16 +28,24 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    # Step 4: Run the Python script to fetch GitHub stats
+    # Step 4: Set environment variables
+    - name: Set environment variables
+      env:
+        USER_NAME: ${{ secrets.USER_NAME }}
+        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+      run: |
+        echo "USER_NAME is set to $USER_NAME"  #
+
+    # Step 5: Run the Python script to fetch GitHub stats
     - name: Run Python Script
       run: python .github/scripts/aggregate.py
 
-    # Step 5: Commit the updated stats (if necessary)
+    # Step 6: Commit the updated stats (if necessary)
     - name: Commit results
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Action"
-        git add profile/github_stats.md
+        git add profile/README.md
         git commit -m "Updated GitHub stats"
         git push
       continue-on-error: true  # Avoid failure if nothing to commit
