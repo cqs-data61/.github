@@ -1,7 +1,7 @@
 # Cybersecurity and Quantum Systems Group, Data61, CSIRO  
 The repos here contain the published papers and research from [Cybersecurity and Quantum Systems Group](https://research.csiro.au/cybersecurity-quantum-systems/), Data61, CSIRO.  
 <!-- STATS-START -->
-#### GitHub Stats (Updated 2024 Oct 22)  
+#### GitHub Stats (Updated: 22 Oct 2024)  
 ![Forks](https://img.shields.io/badge/Forks-127-orange) ![Stars](https://img.shields.io/badge/Stars-527-yellow)  
 <!-- STATS-END -->
 
