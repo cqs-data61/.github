@@ -39,7 +39,7 @@ def update_readme(forks, stars):
     # Prepare the stats output
     stats_section = (
         f"<!-- STATS-START -->\n"
-        f"#### GitHub Stats (Updated: {datetime.now().strftime('%d-%m-%Y')})\n"
+        f"*GitHub Stats (Updated: {datetime.now().strftime('%d-%m-%Y')})*  \n"
         f"![Forks](https://img.shields.io/badge/Forks-{forks}-orange) ![Stars](https://img.shields.io/badge/Stars-{stars}-yellow)  \n"
         f""
         f"<!-- STATS-END -->\n"
