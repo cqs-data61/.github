@@ -38,15 +38,28 @@ def aggregate_github_stats(user):
     repos = []
     repo_list = get_repositories(user)
 
-    for repo in repo_list:
+    for repo in repo_list[:5]:
         repos.append(get_repo(repo))
 
+    stars = 0
+    views = 0
+    forks = 0
     for repo in repos:
         if 'parent' in repo:
             parent = repo['parent']
-            print(parent['stargazers_count'], parent['watchers_count'], parent['forks'], parent['forks'])
+            stars += parent['stargazers_count'] + repo['stargazers_count']
+            views += parent['watchers_count'] + repo['watchers_count']
+            forks += parent['forks_count'] + repo['forks_count']
         else:
-            print(repo['stargazers_count'], repo['watchers_count'], repo['forks'], repo['forks'])
+            stars += repo['stargazers_count']
+            views += repo['watchers_count']
+            forks += repo['forks_count']
+
+    with open('profile/github_stats.md', 'w') as f:
+        f.write(f"# GitHub Stats Report - {datetime.now().strftime('%Y-%m-%d')}\n")
+        f.write(f"Total Stars: {stars}\n")
+        f.write(f"Total Views: {views}\n")
+        f.write(f"Total Views: {forks}\n")
 
 
 # Run the script

@@ -37,7 +37,7 @@ jobs:
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Action"
-        git add .
+        git add profile/github_stats.md
         git commit -m "Updated GitHub stats"
         git push
       continue-on-error: true  # Avoid failure if nothing to commit
