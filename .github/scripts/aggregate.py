@@ -16,18 +16,14 @@ headers = {
 def get_repositories(user):
     repos = []
     page = 1
-    #while True:
-
-    url = f"https://api.github.com/users/{user}/repos?page={page}&per_page=100"
-    print(url)
-
-    response = requests.get(url, headers=headers)
-    data = response.json()
-    # if len(data) == 0:
-    #     break
-    repos.extend(data)
-    page += 1
-
+    while True:
+        url = f"https://api.github.com/users/{user}/repos?page={page}&per_page=100"
+        response = requests.get(url, headers=headers)
+        data = response.json()
+        if len(data) == 0:
+            break
+        repos.extend(data)
+        page += 1
     return repos
 
 
@@ -43,7 +39,9 @@ def update_readme(forks, stars):
     # Prepare the stats output
     stats_section = (
         f"<!-- STATS-START -->\n"
-        f"![Forks](https://img.shields.io/badge/Forks-{forks}-orange) ![Stars](https://img.shields.io/badge/Stars-{stars}-yellow)\n"
+        f"#### GitHub Stats (Updated {datetime.now().strftime('%d-%m-%Y')})\n"
+        f"![Forks](https://img.shields.io/badge/Forks-{forks}-orange) ![Stars](https://img.shields.io/badge/Stars-{stars}-yellow)  \n"
+        f""
         f"<!-- STATS-END -->\n"
     )
 
@@ -71,8 +69,7 @@ def aggregate_github_stats(user):
     repo_list = get_repositories(user)
     print(f'received {len(repo_list)} repos')
 
-    for repo in repo_list[:2]:
-        print(repo)
+    for repo in repo_list:
         _repo = get_repo(repo)
         repos.append(_repo)
 
@@ -90,7 +87,7 @@ def aggregate_github_stats(user):
             views += repo['watchers_count']
             forks += repo['forks_count']
 
-    #update_readme(forks, stars)
+    update_readme(forks, stars)
     print(f'Forks: {forks}')
     print(f'Stars: {stars}')
 

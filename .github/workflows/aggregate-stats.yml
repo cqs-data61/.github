@@ -35,7 +35,7 @@ jobs:
         PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
       run: python .github/scripts/aggregate.py
 
-    # Step 6: Commit the updated stats (if necessary)
+    # Step 5: Commit the updated stats (if necessary)
     - name: Commit results
       run: |
         git config --local user.email "actions@github.com"
