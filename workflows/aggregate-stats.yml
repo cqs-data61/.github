@@ -1,0 +1,43 @@
+name: Aggregate GitHub Stats
+
+on:
+  schedule:
+    # Runs at 12:00 every day
+    - cron: "0 12 * * *"
+  workflow_dispatch:  # Allows manual trigger
+  # You can also add triggers like push or pull_request if needed
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the code (required)
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Python environment
+    - name: Set up Python 3
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    # Step 3: Install required dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    # Step 4: Run the Python script to fetch GitHub stats
+    - name: Run Python Script
+      run: python .github/scripts/aggregate.py
+
+    # Step 5: Commit the updated stats (if necessary)
+    - name: Commit results
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Updated GitHub stats"
+        git push
+      continue-on-error: true  # Avoid failure if nothing to commit
