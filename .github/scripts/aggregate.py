@@ -1,10 +1,12 @@
 import requests
 import os
+import json
 from datetime import datetime
 
 # GitHub username (can be set via environment variable in secrets)
 USER_NAME = os.getenv('USER_NAME')
 TOKEN = os.getenv('PAT_TOKEN')  # Get from GitHub secrets
+COUNT_FILENAME = '.github/counts.json'
 
 # Headers for authentication
 headers = {
@@ -65,31 +67,73 @@ def update_readme(forks, stars):
 # Main function
 def aggregate_github_stats(user):
     repos = []
+    counts = {}
+
     print('getting list...')
     repo_list = get_repositories(user)
     print(f'received {len(repo_list)} repos')
 
     for repo in repo_list:
+        # get repo details
         _repo = get_repo(repo)
         repos.append(_repo)
 
+        # get view stats
+        url = f"https://api.github.com/repos/{user}/{repo['name']}/traffic/views"
+        response = requests.get(url, headers=headers)
+        json_obj = response.json()
+        for view in json_obj['views']:
+            timestamp = view['timestamp']
+            if timestamp in counts:
+                counts[timestamp]['count'] = counts[timestamp]['count'] + view['count']
+                counts[timestamp]['uniques'] = counts[timestamp]['uniques'] + view['uniques']
+            else:
+                counts[timestamp] = {
+                    'count': view['count'],
+                    'uniques': view['uniques']
+                }
+
+    # load previous counts
+    total_counts = {}
+    try:
+        with open(COUNT_FILENAME, 'r') as json_file:
+            total_counts = json.load(json_file)
+    except:
+        pass
+
+    # replace with new counts
+    for key, count in counts.items():
+        total_counts[key] = count
+
     stars = 0
-    views = 0
+    watches = 0
     forks = 0
     for repo in repos:
         if 'parent' in repo:
             parent = repo['parent']
             stars += parent['stargazers_count'] + repo['stargazers_count']
-            views += parent['watchers_count'] + repo['watchers_count']
+            watches += parent['watchers_count'] + repo['watchers_count']
             forks += parent['forks_count'] + repo['forks_count']
         else:
             stars += repo['stargazers_count']
-            views += repo['watchers_count']
+            watches += repo['watchers_count']
             forks += repo['forks_count']
+
+    total_visits = 0
+    total_uniques = 0
+    for timestamp, count in total_counts.items():
+        total_visits += count['count']
+        total_uniques += count['uniques']
 
     update_readme(forks, stars)
     print(f'Forks: {forks}')
     print(f'Stars: {stars}')
+    print(f'Watches: {watches}')
+    print(f"Visits: {total_visits}")
+    print(f"Uniques: {total_uniques}")
+
+    with open(COUNT_FILENAME, 'w') as f:
+        f.write(json.dumps(total_counts))
 
 
 # Run the script
