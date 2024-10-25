@@ -35,14 +35,14 @@ def get_repo(repo):
     return response.json()
 
 
-def update_readme(forks, stars):
+def update_readme(count, uniques, forks, stars, watches):
     readme_filename = "profile/README.md"
 
     # Prepare the stats output
     stats_section = (
         f"<!-- STATS-START -->\n"
         f"*GitHub Stats (Updated: {datetime.now().strftime('%d-%m-%Y')})*  \n"
-        f"![Forks](https://img.shields.io/badge/Forks-{forks}-orange) ![Stars](https://img.shields.io/badge/Stars-{stars}-yellow)  \n"
+        f"![Views](https://img.shields.io/badge/Views-{count}-lightgreen) ![Unique Visitors](https://img.shields.io/badge/Unique_Visitors-{uniques}-green) ![Watch](https://img.shields.io/badge/Watch-{watches}-blue) ![Forks](https://img.shields.io/badge/Forks-{forks}-orange) ![Stars](https://img.shields.io/badge/Stars-{stars}-yellow)  \n"
         f""
         f"<!-- STATS-END -->\n"
     )
@@ -125,7 +125,7 @@ def aggregate_github_stats(user):
         total_visits += count['count']
         total_uniques += count['uniques']
 
-    update_readme(forks, stars)
+    update_readme(total_visits, total_uniques, forks, stars, watches)
     print(f'Forks: {forks}')
     print(f'Stars: {stars}')
     print(f'Watches: {watches}')
