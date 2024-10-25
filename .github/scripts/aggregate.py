@@ -35,14 +35,14 @@ def get_repo(repo):
     return response.json()
 
 
-def update_readme(count, uniques, forks, stars, watches):
+def update_readme(count, uniques, clones, forks, stars, watches):
     readme_filename = "profile/README.md"
 
     # Prepare the stats output
     stats_section = (
         f"<!-- STATS-START -->\n"
         f"*GitHub Stats (Updated: {datetime.now().strftime('%d-%m-%Y')})*  \n"
-        f"![Views](https://img.shields.io/badge/Views-{count}-lightgreen) ![Unique Visitors](https://img.shields.io/badge/Unique_Visitors-{uniques}-green) ![Watch](https://img.shields.io/badge/Watch-{watches}-blue) ![Forks](https://img.shields.io/badge/Forks-{forks}-orange) ![Stars](https://img.shields.io/badge/Stars-{stars}-yellow)  \n"
+        f"![Views](https://img.shields.io/badge/Views-{count}-lightgreen) ![Unique Visitors](https://img.shields.io/badge/Unique_Visitors-{uniques}-green) ![Clones](https://img.shields.io/badge/Clones-{clones}-royalblue) ![Watch](https://img.shields.io/badge/Watch-{watches}-blue) ![Forks](https://img.shields.io/badge/Forks-{forks}-orange) ![Stars](https://img.shields.io/badge/Stars-{stars}-yellow)  \n"
         f""
         f"<!-- STATS-END -->\n"
     )
@@ -64,6 +64,42 @@ def update_readme(count, uniques, forks, stars, watches):
         file.write(updated_content)
 
 
+def get_view_counts(user, repo, counts):
+    url = f"https://api.github.com/repos/{user}/{repo['name']}/traffic/views"
+    response = requests.get(url, headers=headers)
+    json_obj = response.json()
+    for view in json_obj['views']:
+        timestamp = view['timestamp']
+        if timestamp in counts:
+            counts[timestamp]['count'] = counts[timestamp]['count'] + view['count']
+            counts[timestamp]['uniques'] = counts[timestamp]['uniques'] + view['uniques']
+        else:
+            counts[timestamp] = {
+                'count': view['count'],
+                'uniques': view['uniques'],
+                'clone_count': 0,
+                'unique_clones': 0
+            }
+
+
+def get_clone_counts(user, repo, counts):
+    url = f"https://api.github.com/repos/{user}/{repo['name']}/traffic/clones"
+    response = requests.get(url, headers=headers)
+    json_obj = response.json()
+    for view in json_obj['clones']:
+        timestamp = view['timestamp']
+        if timestamp in counts:
+            counts[timestamp]['clone_count'] = counts[timestamp]['clone_count'] + view['count']
+            counts[timestamp]['unique_clones'] = counts[timestamp]['unique_clones'] + view['uniques']
+        else:
+            counts[timestamp] = {
+                'count': 0,
+                'uniques': 0,
+                'clone_count': view['count'],
+                'unique_clones': view['uniques']
+            }
+
+
 # Main function
 def aggregate_github_stats(user):
     repos = []
@@ -79,19 +115,10 @@ def aggregate_github_stats(user):
         repos.append(_repo)
 
         # get view stats
-        url = f"https://api.github.com/repos/{user}/{repo['name']}/traffic/views"
-        response = requests.get(url, headers=headers)
-        json_obj = response.json()
-        for view in json_obj['views']:
-            timestamp = view['timestamp']
-            if timestamp in counts:
-                counts[timestamp]['count'] = counts[timestamp]['count'] + view['count']
-                counts[timestamp]['uniques'] = counts[timestamp]['uniques'] + view['uniques']
-            else:
-                counts[timestamp] = {
-                    'count': view['count'],
-                    'uniques': view['uniques']
-                }
+        get_view_counts(user, repo, counts)
+
+        # get clone stats
+        get_clone_counts(user, repo, counts)
 
     # load previous counts
     total_counts = {}
@@ -121,14 +148,20 @@ def aggregate_github_stats(user):
 
     total_visits = 0
     total_uniques = 0
+    clones = 0
+    unique_clones = 0
     for timestamp, count in total_counts.items():
         total_visits += count['count']
         total_uniques += count['uniques']
+        clones += count['clone_counts']
+        unique_clones += count['unique_clones']
 
-    update_readme(total_visits, total_uniques, forks, stars, watches)
+    update_readme(total_visits, total_uniques, clones, forks, stars, watches)
     print(f'Forks: {forks}')
     print(f'Stars: {stars}')
     print(f'Watches: {watches}')
+    print(f"Clones: {clones}")
+    print(f"Unique Clones: {unique_clones}")
     print(f"Visits: {total_visits}")
     print(f"Uniques: {total_uniques}")
 
