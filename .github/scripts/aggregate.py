@@ -41,7 +41,7 @@ def update_readme(count, uniques, clones, forks, stars, watches):
     # Prepare the stats output
     stats_section = (
         f"<!-- STATS-START -->\n"
-        f"*GitHub Stats (Updated: {datetime.now().strftime('%d-%m-%Y')})*  \n"
+        f"*GitHub Stats (Updated: {datetime.now().strftime('%d-%m-%Y %H:%M %Z%z')})*  \n"
         f"![View](https://img.shields.io/badge/View-{count}-lightgreen) ![Unique Visitor](https://img.shields.io/badge/Unique_Visitor-{uniques}-green) ![Clone](https://img.shields.io/badge/Clone-{clones}-royalblue) ![Watch](https://img.shields.io/badge/Watch-{watches}-blue) ![Fork](https://img.shields.io/badge/Fork-{forks}-orange) ![Star](https://img.shields.io/badge/Star-{stars}-yellow)  \n"
         f""
         f"<!-- STATS-END -->\n"
