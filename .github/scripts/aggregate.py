@@ -153,7 +153,7 @@ def aggregate_github_stats(user):
     for timestamp, count in total_counts.items():
         total_visits += count['count']
         total_uniques += count['uniques']
-        clones += count['clone_counts']
+        clones += count['clone_count']
         unique_clones += count['unique_clones']
 
     update_readme(total_visits, total_uniques, clones, forks, stars, watches)
