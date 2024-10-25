@@ -21,6 +21,7 @@ The "Executable Science" initiative aims to enhance the accessibility and impact
 
 
 
+
 ## About Us
 Digital transformation is occurring faster than ever in every sector, from health, manufacturing, and energy to agriculture. Digital manufacturing, the Internet of Energy, Smart Farming and Digital Health are examples of industries that have undergone a massive transformation, transitioning our economy to a digital economy. Hence, cyberattacks become one of the significant risks to the functioning of our society and our A$ 2.5 trillion economy. Emerging technologies like Quantum, 6G, AI/ML, AR/VR/XR, and Digital Twins will significantly speed up the transformation while providing more attack surfaces to cyber attacks. At the same time, cyberattacks are increasing in volume and sophistication and getting more complex, adaptive and non-deterministic. The group focuses on solving security challenges (a) at these emerging technologies’ intersections and (b) caused while transitioning to these new technologies and developing innovative human-centric security solutions.  
 
