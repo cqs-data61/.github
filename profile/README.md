@@ -11,62 +11,6 @@ The "Executable Science" initiative aims to enhance the accessibility and impact
 <!-- STATS-END -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## About Us
 Digital transformation is occurring faster than ever in every sector, from health, manufacturing, and energy to agriculture. Digital manufacturing, the Internet of Energy, Smart Farming and Digital Health are examples of industries that have undergone a massive transformation, transitioning our economy to a digital economy. Hence, cyberattacks become one of the significant risks to the functioning of our society and our A$ 2.5 trillion economy. Emerging technologies like Quantum, 6G, AI/ML, AR/VR/XR, and Digital Twins will significantly speed up the transformation while providing more attack surfaces to cyber attacks. At the same time, cyberattacks are increasing in volume and sophistication and getting more complex, adaptive and non-deterministic. The group focuses on solving security challenges (a) at these emerging technologies’ intersections and (b) caused while transitioning to these new technologies and developing innovative human-centric security solutions.  
 
@@ -102,6 +46,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - AI Privacy
   - [SoK: Can Trajectory Generation Combine Privacy and Utility?](https://github.com/cqs-data61/SoK-TrajGen), PoPETs 2024
   - [Synthetic Trajectory Generation through Convolutional Neural Networks](https://github.com/cqs-data61/CNN-TRAJGAN), PST 2024
+  - [Bounded and Unbiased Composite Differential Privacy](https://github.com/CompositeDP/CompositeDP), IEEE SP 2024
   - [Demystifying Trajectory Recovery From Ash: An Open-Source Evaluation and Enhancement](https://github.com/cqs-data61/Trajectory_Recovery), SIN 2024
   - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://github.com/cqs-data61/GRAB), CCS 2024
   - [A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services](https://github.com/cqs-data61/Over-unlearning), NDSS 2024
