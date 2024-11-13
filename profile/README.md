@@ -46,7 +46,7 @@ The current practice is to develop patches as and when the vulnerabilities are d
 - AI Privacy
   - [SoK: Can Trajectory Generation Combine Privacy and Utility?](https://github.com/cqs-data61/SoK-TrajGen), PoPETs 2024
   - [Synthetic Trajectory Generation through Convolutional Neural Networks](https://github.com/cqs-data61/CNN-TRAJGAN), PST 2024
-  - [Bounded and Unbiased Composite Differential Privacy](https://github.com/CompositeDP/CompositeDP), IEEE SP 2024
+  - [Bounded and Unbiased Composite Differential Privacy](https://github.com/cqs-data61/CompositeDP), IEEE SP 2024
   - [Demystifying Trajectory Recovery From Ash: An Open-Source Evaluation and Enhancement](https://github.com/cqs-data61/Trajectory_Recovery), SIN 2024
   - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://github.com/cqs-data61/GRAB), CCS 2024
   - [A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services](https://github.com/cqs-data61/Over-unlearning), NDSS 2024
