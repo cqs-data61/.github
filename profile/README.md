@@ -6,9 +6,10 @@ The "Executable Science" initiative aims to enhance the accessibility and impact
 
 
 <!-- STATS-START -->
-*GitHub Stats (Updated: 10-01-2025 12:13 UTC+0000)*  
-![View](https://img.shields.io/badge/View-342-lightgreen) ![Clone](https://img.shields.io/badge/Clone-272-royalblue) ![Watch](https://img.shields.io/badge/Watch-587-blue) ![Fork](https://img.shields.io/badge/Fork-133-orange) ![Star](https://img.shields.io/badge/Star-587-yellow)  
+*GitHub Stats (Updated: 11-01-2025 00:36 UTC+0000)*  
+![View](https://img.shields.io/badge/View-342-lightgreen) ![Clone](https://img.shields.io/badge/Clone-275-royalblue) ![Watch](https://img.shields.io/badge/Watch-587-blue) ![Fork](https://img.shields.io/badge/Fork-133-orange) ![Star](https://img.shields.io/badge/Star-587-yellow)  
 <!-- STATS-END -->
+
 
 
 
