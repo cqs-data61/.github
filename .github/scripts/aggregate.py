@@ -79,7 +79,7 @@ def get_view_counts(user, repo, counts):
     url = f"https://api.github.com/repos/{user}/{repo['name']}/traffic/views"
     response = requests.get(url, headers=headers)
     json_obj = response.json()
-    if views in json_obj:
+    if 'views' in json_obj:
         for view in json_obj['views']:
             timestamp = view['timestamp']
             if timestamp in counts:
