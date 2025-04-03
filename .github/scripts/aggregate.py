@@ -79,18 +79,19 @@ def get_view_counts(user, repo, counts):
     url = f"https://api.github.com/repos/{user}/{repo['name']}/traffic/views"
     response = requests.get(url, headers=headers)
     json_obj = response.json()
-    for view in json_obj['views']:
-        timestamp = view['timestamp']
-        if timestamp in counts:
-            counts[timestamp]['count'] = counts[timestamp]['count'] + view['count']
-            counts[timestamp]['uniques'] = counts[timestamp]['uniques'] + view['uniques']
-        else:
-            counts[timestamp] = {
-                'count': view['count'],
-                'uniques': view['uniques'],
-                'clone_count': 0,
-                'unique_clones': 0
-            }
+    if views in json_obj:
+        for view in json_obj['views']:
+            timestamp = view['timestamp']
+            if timestamp in counts:
+                counts[timestamp]['count'] = counts[timestamp]['count'] + view['count']
+                counts[timestamp]['uniques'] = counts[timestamp]['uniques'] + view['uniques']
+            else:
+                counts[timestamp] = {
+                    'count': view['count'],
+                    'uniques': view['uniques'],
+                    'clone_count': 0,
+                    'unique_clones': 0
+                }
 
 
 def get_clone_counts(user, repo, counts):
