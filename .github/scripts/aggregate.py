@@ -47,7 +47,7 @@ def update_readme(count, uniques, clones, forks, stars, watches):
         f"*GitHub Stats (Updated: {datetime.now(timezone).strftime('%d-%m-%Y %H:%M %Z%z')})*  \n"
         f"![View](https://img.shields.io/badge/View-{count}-lightgreen) ![Unique Visitor](https://img.shields.io/badge/Unique_Visitor-{uniques}-green) ![Clone](https://img.shields.io/badge/Clone-{clones}-royalblue) ![Watch](https://img.shields.io/badge/Watch-{watches}-blue) ![Fork](https://img.shields.io/badge/Fork-{forks}-orange) ![Star](https://img.shields.io/badge/Star-{stars}-yellow)  \n"
         f""
-        f"<!-- STATS-END -->\n"
+        f"<!-- STATS-END -->"
     )
     '''
     stats_section = (
@@ -55,7 +55,7 @@ def update_readme(count, uniques, clones, forks, stars, watches):
         f"*GitHub Stats (Updated: {datetime.now(timezone).strftime('%d-%m-%Y %H:%M %Z%z')})*  \n"
         f"![View](https://img.shields.io/badge/View-{count}-lightgreen) ![Clone](https://img.shields.io/badge/Clone-{clones}-royalblue) ![Watch](https://img.shields.io/badge/Watch-{watches}-blue) ![Fork](https://img.shields.io/badge/Fork-{forks}-orange) ![Star](https://img.shields.io/badge/Star-{stars}-yellow)  \n"
         f""
-        f"<!-- STATS-END -->\n"
+        f"<!-- STATS-END -->"
     )
 
     # Read the current README.md content
