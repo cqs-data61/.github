@@ -42,10 +42,10 @@ We enable Australia to operate confidently in an increasingly complex and contes
 - [Dr Surya Nepal](https://people.csiro.au/N/S/Surya-Nepal), Senior Principal Research Scientist, Data61 Deputy Director
 
 ### The group has four research teams as follows:  
-- [Cyber Security Automation and Orchestration (CySA)](https://research.csiro.au/cybersecurity-quantum-systems/about/autonomous-and-application-security/), led by [Dr Seyit Camtepe](https://people.csiro.au/C/S/seyit-camtepe) ([Dr Ejaz Ahmed](https://people.csiro.au/a/e/ejaz-ahmed), [Dr Jason Xue](https://people.csiro.au/x/j/jason-xue))
+- [Cyber Security Automation and Orchestration (CySA)](https://research.csiro.au/cybersecurity-quantum-systems/autonomous-and-application-security/), led by [Dr Marthie Grobler](https://people.csiro.au/g/m/marthie-grobler) ([Dr Ejaz Ahmed](https://people.csiro.au/a/e/ejaz-ahmed), [Dr Jason Xue](https://people.csiro.au/x/j/jason-xue))
 - [Distributed Systems Security (DSS)](https://research.csiro.au/cybersecurity-quantum-systems/about/iot-cloud-security/), led by [Dr Sharif Abuadbba](https://people.csiro.au/a/s/sharif-abuadbba) ([Seung Jang](https://people.csiro.au/j/s/seung-jang), [Dr Sid Chau](https://people.csiro.au/c/s/sid-chau))
-- [Human-Centric Security (HCS)](https://research.csiro.au/cybersecurity-quantum-systems/about/human-centric-security/), led by [Dr Kristen Moore](https://people.csiro.au/m/k/kristen-moore) ([Dr Mohan Baruwal Chhetri](https://people.csiro.au/b/m/mohan-baruwalchhetri))
-- [Quantum Systems (QS)](https://research.csiro.au/cybersecurity-quantum-systems/about/quantum-systems/), led by [Dr Usman Muhammad](https://research.csiro.au/cybersecurity-quantum-systems/people/staff/) ([Dr Hajime Suzuki](https://people.csiro.au/s/h/hajime-suzuki))
+- [Human-Centric Security (HCS)](https://research.csiro.au/cybersecurity-quantum-systems/about/human-centric-security/), led by [Dr Kristen Moore](https://people.csiro.au/m/k/kristen-moore) and [Dr Mohan Baruwal Chhetri (Acting)](https://people.csiro.au/b/m/mohan-baruwalchhetri))
+- [Quantum Systems (QS)](https://research.csiro.au/cybersecurity-quantum-systems/about/quantum-systems/), led by [Dr Usman Muhammad](https://people.csiro.au/u/m/muhammad-usman) ([Dr Hajime Suzuki](https://people.csiro.au/s/h/hajime-suzuki))
 
 ## Online Library of our Selected Works with Code Implementations
 - AI Security
