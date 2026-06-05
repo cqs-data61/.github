@@ -10,14 +10,33 @@ The "Executable Science" initiative aims to enhance the accessibility and impact
 <!-- STATS-END -->
 
 ## About Us
-Digital transformation is occurring faster than ever in every sector, from health, manufacturing, and energy to agriculture. Digital manufacturing, the Internet of Energy, Smart Farming and Digital Health are examples of industries that have undergone a massive transformation, transitioning our economy to a digital economy. Hence, cyberattacks become one of the significant risks to the functioning of our society and our A$ 2.5 trillion economy. Emerging technologies like Quantum, 6G, AI/ML, AR/VR/XR, and Digital Twins will significantly speed up the transformation while providing more attack surfaces to cyber attacks. At the same time, cyberattacks are increasing in volume and sophistication and getting more complex, adaptive and non-deterministic. The group focuses on solving security challenges (a) at these emerging technologies’ intersections and (b) caused while transitioning to these new technologies and developing innovative human-centric security solutions.  
+We design and deliver resilient, trustworthy, and secure digital systems for a world shaped by AI, quantum technologies, and highly interconnected infrastructure. As cyber threats accelerate in scale and sophistication, our focus is clear: protect essential services, strengthen digital trust, and build resilience by design.
 
-The current practice is to develop patches as and when the vulnerabilities are determined; we refer to it as “security by patching”. As new solutions are built and released, security is often considered later, allowing attackers to identify vulnerabilities and prepare and launch their attacks successfully. To address this challenge, the new paradigm, called “security by design”, is being promoted in academia and industry. However, with the advancement of technologies, the system designed today using the security by design principle may not be secure against future threats. To address this challenge, we coined the term “security by continuous improvement design“, with resiliency and agility main features. Our security solutions are driven by the principle of security by continuous improvement design.  
+### What we do
+We develop deployable solutions that enable:
+- Secure and trustworthy AI systems
+- Resilient critical infrastructure and digital services
+- Protection against AI-enabled and emerging cyber threats
+- Future-ready, quantum-safe systems
+Our approach prioritises continuity, recovery, and resilience — not just protection.
+
+### Why it matters
+Modern digital systems are no longer isolated. They are interconnected, AI-driven, and critical to society — and increasingly vulnerable.
+- Cyber attacks now disrupt essential services and national infrastructure
+- Risks cascade across sectors like energy, finance, and telecommunications
+- Emerging technologies introduce new threats, including AI-enabled attacks and quantum risks
+We move beyond reactive security to deliver proactive, system-level digital resilience.
+
+### Impact
+Our work supports:
+- Resilient essential services for communities
+- Secure digital transformation for industry
+- Trusted systems for government and national security
+We enable Australia to operate confidently in an increasingly complex and contested digital world.
 
 ### Leadership
-- [Dr Surya Nepal](https://people.csiro.au/N/S/Surya-Nepal), CQS Group Leader, Senior Principal Research Scientist
-- [Dr Dongxi Liu](https://people.csiro.au/L/D/Dongxi-Liu), CQS Sciences Lead, Principal Research Scientist
-- [Dr Marthie Grobler](https://people.csiro.au/g/m/marthie-grobler), CQS Critical Infrastructure Portfolio Lead, Principal Research Scientist
+- [Dr Kristen Moore](https://people.csiro.au/m/k/kristen-moore), Principal Research Scientist, Group Leader (Acting)
+- [Dr Surya Nepal](https://people.csiro.au/N/S/Surya-Nepal), Senior Principal Research Scientist, Data61 Deputy Director
 
 ### The group has four research teams as follows:  
 - [Cyber Security Automation and Orchestration (CySA)](https://research.csiro.au/cybersecurity-quantum-systems/about/autonomous-and-application-security/), led by [Dr Seyit Camtepe](https://people.csiro.au/C/S/seyit-camtepe) ([Dr Ejaz Ahmed](https://people.csiro.au/a/e/ejaz-ahmed), [Dr Jason Xue](https://people.csiro.au/x/j/jason-xue))
