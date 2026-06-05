@@ -17,21 +17,24 @@ We develop deployable solutions that enable:
 - Secure and trustworthy AI systems
 - Resilient critical infrastructure and digital services
 - Protection against AI-enabled and emerging cyber threats
-- Future-ready, quantum-safe systems
+- Future-ready, quantum-safe systems  
+
 Our approach prioritises continuity, recovery, and resilience — not just protection.
 
 ### Why it matters
 Modern digital systems are no longer isolated. They are interconnected, AI-driven, and critical to society — and increasingly vulnerable.
 - Cyber attacks now disrupt essential services and national infrastructure
 - Risks cascade across sectors like energy, finance, and telecommunications
-- Emerging technologies introduce new threats, including AI-enabled attacks and quantum risks
+- Emerging technologies introduce new threats, including AI-enabled attacks and quantum risks  
+
 We move beyond reactive security to deliver proactive, system-level digital resilience.
 
 ### Impact
 Our work supports:
 - Resilient essential services for communities
 - Secure digital transformation for industry
-- Trusted systems for government and national security
+- Trusted systems for government and national security  
+
 We enable Australia to operate confidently in an increasingly complex and contested digital world.
 
 ### Leadership
