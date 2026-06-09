@@ -184,4 +184,5 @@ def aggregate_github_stats(user):
 
 # Run the script
 if __name__ == "__main__":
+    print(f"USER_NAME={USER_NAME}")
     aggregate_github_stats(USER_NAME)
